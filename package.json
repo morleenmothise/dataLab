@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,16 @@
     "url": "https://github.com/morleenmothise/dataLab/issues"
   },
   "homepage": "https://github.com/morleenmothise/dataLab#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "css-loader": "^6.7.2",
+    "cypress": "^12.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "esbuild": "^0.16.4",
+    "ts-loader": "^9.4.2"
+  },
   "dependencies": {
-    "cypress": "^12.1.0"
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0"
   }
 }
