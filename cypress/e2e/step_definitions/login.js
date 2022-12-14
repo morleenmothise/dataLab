@@ -21,6 +21,6 @@ When("A user enters the username , and password and clicks on login button", (da
 });
 
 Then ("impactradius loading page must be dispalyed", () => {
-    cy.wait(1000)
+    cy.wait(5000)
     cy.url().should("contains", "/secure/advertiser/engage/aview.ihtml")
 })

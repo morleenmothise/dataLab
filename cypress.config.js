@@ -28,7 +28,7 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
     failOnStatusCode: false,
     watchForFileChanges : false,
-    defaultCommandTimeout: 10000,
+    defaultCommandTimeout: 5000,
     env: {
       allureReuseAfterSpec: true,
     },
